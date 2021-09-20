@@ -4,8 +4,8 @@ import SideNav from "./SideNav";
 
 export default function App() {
   return (
-    <div >
-      <SideNav />
+    <div  >
+      <SideNav/>
        
     </div>
   );

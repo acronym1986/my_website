@@ -5,14 +5,16 @@ import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import { Link } from '@material-ui/icons';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import EmailIcon from '@material-ui/icons/Email';
+import PhoneIphoneIcon from '@material-ui/icons/PhoneIphone';
  
 
 
 const useStyles = makeStyles({
   root: {
     minWidth: 275,
-    borderLeftColor: '#64ffda',
-    borderLeftWidth: 3,
+    borderLeftColor: '#76ff03',
+    borderLeftWidth: 5,
   },
   
   bullet: {
@@ -31,7 +33,6 @@ const useStyles = makeStyles({
 
 export default function Education() {
   const classes = useStyles();
-  const bull = <span className={classes.bullet}>•</span>;
 
   return (
     <div>
@@ -56,14 +57,14 @@ export default function Education() {
 
 
     <Card style={{marginTop: "20px"}} className={classes.root} variant="outlined">
-      <CardContent>       
+      <CardContent>
         <Typography variant="h5" component="h2">
-         E-MAIL:
+        E-MAIL:
         </Typography>
           <br/>
         <Typography variant="body2" component="p">
-           {bull}acronym1986@gmail.com
-          <br />
+        <EmailIcon/> acronym1986@gmail.com
+           
         </Typography>
       </CardContent>
     </Card>
@@ -76,7 +77,7 @@ export default function Education() {
         </Typography>
          <br/>
         <Typography variant="body2" component="p">
-           {bull}(610) 435224612
+           <PhoneIphoneIcon/>(610) 435224612
           <br />
         </Typography>
       </CardContent>

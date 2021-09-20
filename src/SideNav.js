@@ -5,7 +5,7 @@ import {
   ListItemText,
 } from "@material-ui/core";
 import AppBar from '@material-ui/core/AppBar';
-import CssBaseline from '@material-ui/core/CssBaseline';
+//import CssBaseline from '@material-ui/core/CssBaseline';
 import Divider from '@material-ui/core/Divider';
 import Hidden from '@material-ui/core/Hidden';
 import IconButton from '@material-ui/core/IconButton';
@@ -23,9 +23,6 @@ import tlogo from "./img/tlogo.png"
 import slash from "./img/slash.png"
 import ava2 from './img/ava2.png';
 
-
-
- 
 
 
 const drawerWidth = 240;
@@ -54,12 +51,12 @@ const useStyles = makeStyles((theme) =>({
     },
   },
   // necessary for content to be below app bar
-  toolbar: theme.mixins.toolbar,
+  toolbar: theme.mixins.toolbar, 
   drawerPaper: {
     width: drawerWidth,
-    //borderRightColor: "black",
-    paddingRight: theme.spacing(0),
-    background:"#eeeeee"
+    borderRightColor: "#bdbdbd",
+    paddingRight: theme.spacing(0.2),
+    //background:"#eeeeee",
   },
   logo: {
     maxWidth: 115,
@@ -87,10 +84,11 @@ const SideNav = props => {
   const drawer = (
       <div>
         <img src={ava2} alt="logo" style={{maxWidth: "239px", marginTop: "-5px"}}/>
-        <div className={classes.toolbar} />
+        <div className={classes.toolbar}/>
+        
         <Divider style={{ background: 'black', marginTop: "-69px"}} />
-        <ListItem button  key={"ABOUT"} onClick={() => history.push("/")} >
-          <ListItemText primary={"ABOUT"} />
+        <ListItem button key={"ABOUT"} onClick={() => history.push("/")} >
+          <ListItemText primary={"ABOUT"}/>
           <img src={slash} alt="slash" style={{width: "32px", margin:"0 -14px -13px 0"}} />
         </ListItem>
         <Divider style={{ background: '#606060' }} />
@@ -127,7 +125,7 @@ const SideNav = props => {
     <div className={classes.root}>
     
 
-      <CssBaseline />
+       
       <AppBar style={{ boxShadow:"0 1px"}}
          color = "inherit"
          position="fixed" 
@@ -178,7 +176,7 @@ const SideNav = props => {
           </Drawer>
         </Hidden>
       </nav>
-      <main className={classes.content}>
+      <main className={classes.content} >
         <div className={classes.toolbar} />
         <Switch>
         <Route exact path="/" render={props => <About {...props} />} />

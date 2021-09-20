@@ -4,13 +4,14 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
  
+ 
 
 
 const useStyles = makeStyles({
   root: {
     minWidth: 275,
-    borderLeftColor: '#0d47a1',
-    borderLeftWidth: 3,
+    borderLeftColor: '#76ff03',
+    borderLeftWidth: 5,
   },
   
   bullet: {
@@ -32,7 +33,7 @@ export default function Education() {
   const bull = <span className={classes.bullet}>•</span>;
 
   return (
-    <div>
+    <div  >
     <Card className={classes.root} variant="outlined" >
     <div className={classes.paper}>
       </div >

@@ -46,7 +46,7 @@ export default function Graphicdesign() {
 
   return (
     <div className={classes.root}>
-      <Grid container spacing={2} >
+      <Grid container spacing={1} >
        
         <Grid item xs={12} sm={3}>
         <Card className={classes.card}>

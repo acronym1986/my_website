@@ -12,6 +12,7 @@ import Graphicdesign from './Graphicdesign'
 
 
 
+
 const Project = props => {
     const { history } = props;
     
@@ -34,9 +35,8 @@ const Project = props => {
                       control={<Radio color="primary"/>}
                       label= "PROGRAMMING"
                       onChange = {() => history.push("/project/programming")}
-                     
                     />
-                     
+                      
                     <FormControlLabel
                       value="graphic design"   
                       control={<Radio color="primary"/>}

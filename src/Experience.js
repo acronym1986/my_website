@@ -10,7 +10,7 @@ const useStyles = makeStyles({
   root: {
     minWidth: 275,
     borderLeftColor: '#76ff03',
-    borderLeftWidth: 3,
+    borderLeftWidth: 5,
   },
   
   bullet: {
