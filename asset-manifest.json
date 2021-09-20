@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.js": "/my_website/static/js/main.cbde878f.chunk.js",
+    "main.js.map": "/my_website/static/js/main.cbde878f.chunk.js.map",
+    "runtime-main.js": "/my_website/static/js/runtime-main.cc01d727.js",
+    "runtime-main.js.map": "/my_website/static/js/runtime-main.cc01d727.js.map",
+    "static/js/2.cd96ee84.chunk.js": "/my_website/static/js/2.cd96ee84.chunk.js",
+    "static/js/2.cd96ee84.chunk.js.map": "/my_website/static/js/2.cd96ee84.chunk.js.map",
+    "static/js/3.1f9a7482.chunk.js": "/my_website/static/js/3.1f9a7482.chunk.js",
+    "static/js/3.1f9a7482.chunk.js.map": "/my_website/static/js/3.1f9a7482.chunk.js.map",
+    "index.html": "/my_website/index.html",
+    "static/js/2.cd96ee84.chunk.js.LICENSE.txt": "/my_website/static/js/2.cd96ee84.chunk.js.LICENSE.txt",
+    "static/media/ava2.b9d59454.png": "/my_website/static/media/ava2.b9d59454.png",
+    "static/media/bottom.f24e3791.jpg": "/my_website/static/media/bottom.f24e3791.jpg",
+    "static/media/covidTrackerReact.3125cc83.png": "/my_website/static/media/covidTrackerReact.3125cc83.png",
+    "static/media/dogapp.0340c3d1.png": "/my_website/static/media/dogapp.0340c3d1.png",
+    "static/media/farmTaskRails.9f38778f.png": "/my_website/static/media/farmTaskRails.9f38778f.png",
+    "static/media/frame2.c1e4c440.png": "/my_website/static/media/frame2.c1e4c440.png",
+    "static/media/game.f1dfee2c.png": "/my_website/static/media/game.f1dfee2c.png",
+    "static/media/hover.5728bc8b.jpg": "/my_website/static/media/hover.5728bc8b.jpg",
+    "static/media/ink1.6e2b2176.jpg": "/my_website/static/media/ink1.6e2b2176.jpg",
+    "static/media/material.38969288.png": "/my_website/static/media/material.38969288.png",
+    "static/media/mePic2.3e01c9ee.jpg": "/my_website/static/media/mePic2.3e01c9ee.jpg",
+    "static/media/middle.d74b74a0.jpg": "/my_website/static/media/middle.d74b74a0.jpg",
+    "static/media/moiveuni.559fc60a.png": "/my_website/static/media/moiveuni.559fc60a.png",
+    "static/media/noodleapp.21ddec67.png": "/my_website/static/media/noodleapp.21ddec67.png",
+    "static/media/rubyCLI.46aa01e1.png": "/my_website/static/media/rubyCLI.46aa01e1.png",
+    "static/media/searchWordJs.ef6ab624.png": "/my_website/static/media/searchWordJs.ef6ab624.png",
+    "static/media/studioLogo.edc37fce.png": "/my_website/static/media/studioLogo.edc37fce.png",
+    "static/media/tlogo.8c3d55ed.png": "/my_website/static/media/tlogo.8c3d55ed.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc01d727.js",
+    "static/js/2.cd96ee84.chunk.js",
+    "static/js/main.cbde878f.chunk.js"
+  ]
+}
