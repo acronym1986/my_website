@@ -20,12 +20,12 @@ const Project = props => {
   return (
     <div >
          <Box 
-           style={{ background: '#FFFFFF', boxShadow:"1px 1px"}}
+           style={{ background: '#eeeeee', boxShadow:"1px 1px"}}
            color = "black"
            position="fixed"
            width = "100%" 
-           padding = "28px 0 0 45px"
-           margin = "-45px 0 0 -21px"
+           padding = "28px 0 5px 45px"
+           margin = "-45px 0 0 -23px"
            > 
                   <FormControl component="fieldset">
                   <RadioGroup row aria-label="position" name="position" defaultValue="top">
@@ -49,7 +49,7 @@ const Project = props => {
                  </FormControl>
            </Box>
                 <Box 
-                  paddingTop = "60px"
+                  paddingTop = "75px"
                   paddingLeft = "20px"
                   >    
                      <Switch>

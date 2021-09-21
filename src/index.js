@@ -2,17 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter} from "react-router-dom";
 import CssBaseline from "@material-ui/core/CssBaseline";
  
  
  
 
 ReactDOM.render(
-    <Router>
+    <HashRouter>
       <CssBaseline />
       <App />
-    </Router>,
+    </HashRouter>,
   document.getElementById('root')
 );
 

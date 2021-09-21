@@ -36,7 +36,7 @@ export default function Education() {
 
   return (
     <div>
-    <Card className={classes.root} variant="outlined" >
+    <Card className={classes.root} variant="outlined"   >
     <div className={classes.paper}>
       </div >
        <CardContent >       
